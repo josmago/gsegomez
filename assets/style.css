@@ -1,4 +1,35 @@
-body{
-    font: optional;
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+html{
+    scroll-behavior:smooth;
+}
 
+body{
+    font-family: sans-serif
+    ;
+}
+h1{
+color: navy;
+}
+img,
+video{
+    max-width: 100%;
+    height: auto;
+}
+svg{
+    max-width: 100%;
+    height: auto;
+}
+iframe{
+    width: 80%;
+    height: 400px;
 }
